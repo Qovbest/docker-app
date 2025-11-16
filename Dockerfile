@@ -1,5 +1,5 @@
 # 使用 GCC 镜像
-FROM gcc:alpine
+FROM gcc
 
 # 设置工作目录
 WORKDIR /app
