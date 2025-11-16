@@ -1,5 +1,5 @@
-# 使用官方的 GCC 镜像作为基础镜像
-FROM gcc:latest
+# 使用阿里云镜像源的 GCC 镜像
+FROM registry.cn-hangzhou.aliyuncs.com/aliyun/gcc:latest
 
 # 设置工作目录
 WORKDIR /app
